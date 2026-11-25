@@ -1,0 +1,29 @@
+# Data & assets (large binary files — not tracked in Git)
+data/*.csv
+data/*.zip
+data/*.db
+*.db
+
+# Secrets (never commit tokens/passwords)
+superset_token.txt
+*.env
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# AGGRESSIVE DATA EXCLUSION
+*.db
+*.csv
+*.zip
