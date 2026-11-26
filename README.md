@@ -1,9 +1,6 @@
 # 🛒 Multi-Store Retail Analytics: From Raw Data to Executive Decisions
 An end-to-end data analytics project showcasing a complete pipeline—from automated data cleaning and Exploratory Data Analysis (EDA) to interactive dashboarding in **Apache Superset**.
 
-👉 **Live Superset Dashboard:** [http://localhost:8088/superset/dashboard/seven-retail-executive-dashboard/](http://localhost:8088/superset/dashboard/seven-retail-executive-dashboard/) *(Local Docker deployment)*  
-📂 **GitHub Repository:** [https://github.com/enal00/seven-retail-data-portfolio](https://github.com/enal00/seven-retail-data-portfolio)
-
 ---
 
 ## 📋 Table of Contents
@@ -109,4 +106,3 @@ Summary of key columns used in decision frameworks:
   ```
 
 ---
-*Developed as an end-to-end data analytics portfolio for the Data Analyst Associate role at Seven Retail.* 🚀
