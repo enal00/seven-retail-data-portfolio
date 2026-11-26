@@ -29,25 +29,33 @@ Dari 120.000 transaksi yang dianalisis, Seven Retail menghasilkan **total pendap
 
 ## 2. Analisis Kategori Produk — Driver Profit & Margin
 
-Berikut adalah 10 kategori produk terdekat berdasarkan total keuntungan:
+Berikut adalah perbandingan antara **Kategori dengan Profit Nominal Tertinggi** (Volume Play) dan **Kategori dengan Margin Persentase Tertinggi** (Value Play):
+
+### A. Top 5 Kategori Berdasarkan Margin Keuntungan (%) — *Aggregate Margin (SUM(Profit) / SUM(Revenue))*
+> *Catatan: Ini adalah metrik sesungguhnya (aggregate margin), memperbaiki kesalahan rata-rata per baris sebelumnya.*
 
 | Kategori | Pendapatan | Keuntungan | Margin (%) | Jumlah Transaksi |
 |----------|------------|------------|------------|------------------|
-| Grocery | 573.786 | 253.434 | 44,2% | 5.734 |
-| Meat | 552.706 | 246.306 | 44,6% | 5.865 |
-| Bakery | 471.083 | 226.872 | **48,2%** | 5.162 |
-| Fruits | 511.329 | 223.617 | 43,7% | 5.775 |
-| Vegetables | 490.631 | 223.551 | 45,6% | 5.552 |
-| Snacks | 486.759 | 219.346 | 45,1% | 5.762 |
-| Frozen Foods | 449.690 | 201.040 | 44,7% | 5.114 |
-| Seafood | 440.328 | 197.403 | 44,8% | 4.547 |
-| Dairy | 421.634 | 194.879 | 46,2% | 4.748 |
-| Kitchen | 283.180 | 125.963 | 44,5% | 3.034 |
+| **Supplements** | 152.756 | 79.235 | **51,9%** | 1.521 |
+| **First Aid** | 218.498 | 110.079 | **50,4%** | 1.513 |
+| **Batteries** | 196.203 | 95.164 | **48,5%** | 1.896 |
+| **Kitchenware** | 98.350 | 47.636 | **48,4%** | 1.012 |
+| **Accessories** | 185.616 | 89.881 | **48,4%** | 1.897 |
+
+### B. Top 5 Kategori Berdasarkan Keuntungan Nominal Tertinggi (Total Profit) — *Volume Play*
+
+| Kategori | Pendapatan | Keuntungan | Margin (%) | Jumlah Transaksi |
+|----------|------------|------------|------------|------------------|
+| **Grocery** | 573.786 | 253.434 | 44,2% | 5.734 |
+| **Meat** | 552.706 | 246.306 | 44,6% | 5.865 |
+| **Bakery** | 471.083 | 226.872 | 48,2% | 5.162 |
+| **Fruits** | 511.329 | 223.617 | 43,7% | 5.775 |
+| **Vegetables** | 490.631 | 223.551 | 45,6% | 5.552 |
 
 **Temuan Penting:**
-- **Bakery** memiliki margin tertinggi (48,2%) meski bukan pendapatan terbesar — peluang untuk memperluas variasi produk bakery di semua cabang.
-- **Grocery** dan **Meat** adalah dua kategori dengan volume transaksi tertinggi — cocok menjadi *anchor* untuk bundling promosi.
-- Semua 10 kategori teratas memiliki margin di atas 43%, menunjukkan portofolio produk yang sehat secara finansial.
+- **Supplements** dan **First Aid** memimpin dari sisi efisiensi margin (di atas 50%), meski volume transaksi lebih kecil — cocok untuk strategi *cross-selling* dan penambahan *shelf-space* bernilai tinggi.
+- **Grocery** dan **Meat** adalah kontributor *nominal profit* terbesar karena volume transaksi yang sangat tinggi — berfungsi sebagai *anchor categories* untuk lalu lintas pelanggan.
+- Bakery berada di posisi unik: memiliki volume tinggi sekaligus margin yang sangat kompetitif (48,2%).
 
 ---
 
