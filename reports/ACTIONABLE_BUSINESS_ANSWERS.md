@@ -9,20 +9,20 @@
 | Chart ID | Nama Chart | Metrik yang Ditampilkan | Tujuan Analisis |
 |----------|------------|-------------------------|-----------------|
 | 104 | Revenue & Profit Trend | `SUM(total_amount)`, `SUM(calculated_profit)` per bulan | Tren profitabilitas waktu |
-| 105 | Profit Margin by Product Category | `Avg Profit Margin (%)` per kategori | Identifikasi kategori margin tertinggi |
-| 107 | Customer Segment Value (LTV) | `SUM(customer_lifetime_value)` per segmen | Segmentasi nilai pelanggan |
+| 105 | Profit Margin by Product Category | `Aggregate Profit Margin (%)` per kategori | Identifikasi kategori margin tertinggi |
+| 107 | Customer Segment Value (LTV) | `SUM(customer_lifetime_value)` per segmen | Segmentasi nilai pelanggan & churn risk |
 | 108 | Return & Complaint Rate by Category | `Returns`, `Complaints` per kategori | Deteksi bottleneck operasional |
 
-1. **Driver Profit Margin Tertinggi (Kategori & Segmen):**
-   - **Kategori Produk:** Melalui **Chart 105 (Profit Margin by Product Category)**, terlihat kategori dengan margin tertinggi antara lain *Accessories* (~48%), *Bakery* (~48%), *Batteries* (~48%), dan *Baby Care* (~44%). Kategori ini memberikan kontribusi profit margin yang lebih tinggi dibandingkan kategori lain yang volumenya tinggi tetapi margin relatif lebih rendah.
-   - **Segmen Pelanggan (LTV):** Melalui **Chart 107**, segmen *VIP / Premium Members* dan *Loyalty Tier A* memiliki *Customer Lifetime Value (LTV)* yang signifikan lebih tinggi dibandingkan segmen *Regular / Non-Member*.
+1. **Driver Profit Margin Tertinggi (Kategori & Segmen) — Audited:**
+   - **Kategori Produk (Aggregate Margin = SUM(Profit) / SUM(Revenue)):** Melalui **Chart 105**, kategori dengan margin tertinggi adalah **Supplements (51.87%)**, **First Aid (50.38%)**, dan **Batteries (48.50%)**. Dari sisi *total nominal profit*, **Grocery (253.434)** dan **Meat (246.306)** adalah kontributor terbesar karena volume tinggi (volume play).
+   - **Segmen Pelanggan (LTV):** Melalui **Chart 107**, segmen *Regular Shopper* dan *Family Shopper* memberikan kontribusi pendapatan & profit terbesar, dengan rata-rata LTV merata di kisaran 8.600–8.900.
 2. **Bottleneck Operasional (Retur & Komplain):**
-   - Chart **Return & Complaint Rate by Category** menunjukkan lonjakan retur tertinggi pada kategori *Frozen Foods* (kendala rantai dingin/logistik cabang) dan *Electronics* (defect/garansi).
+   - Chart **Return & Complaint Rate by Category (Chart 108)** menunjukkan retur & komplain tertinggi pada kategori produk segar: **Vegetables** (191 retur, 187 komplain) dan **Fruits** (165 retur, 179 komplain) — indikasi kuat adanya isu *cold-chain* / manajemen kesegaran di tingkat cabang.
 
 ### 🎯 **Action Decisions (Keputusan Bisnis yang Dapat Diambil):**
-- **Action 1 (Alokasi Stok & Marketing):** Tingkatkan stok dan *cross-selling campaign* untuk kategori *Health & Beauty* dan *Electronics* di 50 toko berkinerja tertinggi untuk mendongkrak *Gross Profit*.
-- **Action 2 (Mitigasi Bottleneck):** Lakukan audit rantai pasok (*cold-chain audit*) pada 10 cabang dengan tingkat retur *Frozen Foods* tertinggi untuk menekan biaya retur sebesar 15% pada kuartal berikutnya.
-- **Action 3 (Retensi VIP):** Berikan *personalized voucher* eksklusif kepada segmen *VIP / Premium* untuk menjaga *churn rate* tetap di bawah 5%.
+- **Action 1 (Alokasi Shelf-Space & Cross-Selling):** Tingkatkan alokasi ruang rak dan kampanye *cross-selling* untuk kategori margin tinggi (**Supplements** & **First Aid**) di top-10 toko untuk mendongkrak *Gross Profit*.
+- **Action 2 (Mitigasi Bottleneck Rantai Dingin):** Audit rantai pasok (*cold-chain audit*) pada 10 cabang dengan tingkat retur *Vegetables & Fruits* tertinggi untuk menekan pemborosan hingga 15%.
+- **Action 3 (Retensi Churn Risk):** Berikan *personalized voucher* kepada **2.721 pelanggan (2.3%)** berisiko *churn* tinggi agar tidak beralih ke kompetitor.
 
 ---
 
