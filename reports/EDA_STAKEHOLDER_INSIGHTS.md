@@ -191,7 +191,7 @@ Berikut adalah perbandingan antara **Kategori dengan Profit Nominal Tertinggi** 
 |-----------|----------|--------------|
 | **Tinggi** | Audit *cold-chain* pada kategori segar (Vegetables, Fruits, Meat) untuk menurunkan retur & komplain | Tingkat komplain & retur tertinggi ada pada kategori segar |
 | **Tinggi** | Program intervensi targeted untuk 2.721 pelanggan risiko *churn* tinggi | 2,3% pelanggan berisiko *churn* tinggi |
-| **Sedang** | Perluas variasi produk Bakery (margin 48,2% — tertinggi) di semua cabang | Bakery memiliki margin tertinggi di antara semua kategori |
+| **Sedang** | Tingkatkan *shelf-space* & *cross-selling* untuk kategori margin tinggi (Supplements 51,9% & First Aid 50,4%) di semua cabang | Supplements & First Aid memiliki margin tertinggi (aggregate) |
 | **Sedang** | Promosikan penggunaan Mobile Wallet untuk mengurangi antrean kasir | Mobile Wallet hanya 15,1% dibanding Credit/Debit 55,3% |
 | **Rendah** | Rancang kembali program redeem poin loyalty (hanya 24,9% ditebus) | Rasio penebusan poin rendah |
 | **Rendah** | Pelajari praktik terbaik dari toko S00000064 (margin 50,7%) untuk ditiru ke cabang lain | Toko terbaik memiliki margin 5,8 poin di atas rata-rata |
