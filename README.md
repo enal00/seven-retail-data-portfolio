@@ -26,6 +26,8 @@ Based on the analysis of **120,000 transactions** across **325 data points**:
 | **First Aid** | **50.38%** | 110,079 |
 | **Batteries** | **48.50%** | 95,164 |
 
+![Profit Margin by Category](reports/charts/profit_margin_by_category.png)
+
 - **Analysis:** While **Grocery** drives the highest nominal profit (253k), specialty categories like **Supplements** and **First Aid** offer superior margins.
 - **Action Decision:** Increase shelf-space allocation and cross-selling campaigns for High-Margin categories in top-performing stores to boost overall Gross Profit.
 
@@ -34,6 +36,9 @@ Based on the analysis of **120,000 transactions** across **325 data points**:
 
 - **Finding:** The overall return rate is **3.06%**. However, **Vegetables** and **Fruits** consistently rank highest in both returns and complaints.
 - **Root Cause:** Analysis suggests cold-chain logistics issues or shelf-life mismanagement at the branch level.
+
+![Returns by Category](reports/charts/returns_by_category.png)
+
 - **Action Decision:** Mandate a cold-chain logistics audit for the top 10 branches with the highest fresh produce return rates to reduce waste by an estimated 15%.
 
 ### 3. Multi-Store Performance (200+ Centers)
