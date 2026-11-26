@@ -1,6 +1,6 @@
 # Portfolio Data Analyst: Seven Retail & Multi-Store Supermarket Analytics
 
-End-to-end data analyst portfolio project designed to meet the technical and business requirements of **Seven Retail (Data Analyst Associate - Group Service)**.
+An end-to-end data analytics case study showcasing my capability in handling complex multi-store datasets, building automated data cleaning pipelines, and developing executive dashboards in **Apache Superset** to solve real-world retail business problems.
 
 ## Project Structure
 
@@ -8,7 +8,7 @@ End-to-end data analyst portfolio project designed to meet the technical and bus
 ├── data/                 # Raw and cleaned datasets (supermarket_large_dataset.csv, supermarket_cleaned.csv)
 ├── src/                  # Source code for data cleaning and EDA automation (eda_analysis.py, data_cleaning.py)
 ├── reports/              # Markdown reports, EDA, and Business Requirement Document (BUSINESS_REQUIREMENTS.md)
-├── notebooks/            # Jupyter notebooks for interactive exploration
+├── notebooks/            # Additional notes, data dictionary, and reference documentation
 └── README.md             # Project documentation
 ```
 

@@ -4,9 +4,18 @@
 > *"Which product categories and customer segments drive the highest profit margins, and where are the operational bottlenecks (e.g., returns, complaints)?"*
 
 ### 📊 Analisis dari Dataset & Dashboard Superset:
+
+**Chart yang relevan:**
+| Chart ID | Nama Chart | Metrik yang Ditampilkan | Tujuan Analisis |
+|----------|------------|-------------------------|-----------------|
+| 104 | Revenue & Profit Trend | `SUM(total_amount)`, `SUM(calculated_profit)` per bulan | Tren profitabilitas waktu |
+| 105 | Profit Margin by Product Category | `Avg Profit Margin (%)` per kategori | Identifikasi kategori margin tertinggi |
+| 107 | Customer Segment Value (LTV) | `SUM(customer_lifetime_value)` per segmen | Segmentasi nilai pelanggan |
+| 108 | Return & Complaint Rate by Category | `Returns`, `Complaints` per kategori | Deteksi bottleneck operasional |
+
 1. **Driver Profit Margin Tertinggi (Kategori & Segmen):**
-   - **Kategori Produk:** Kategori *Electronics*, *Premium Apparel*, dan *Health & Beauty* menyumbang kontribusi *calculated_profit* tertinggi dengan margin di atas 35%, meskipun volume transaksinya tidak sebesar *Groceries* atau *Bakery* (yang volumenya tinggi tapi margin tipis di 10–15%).
-   - **Segmen Pelanggan (LTV):** Segmen *VIP / Premium Members* dan *Loyalty Tier A* memiliki *Customer Lifetime Value (LTV)* 3.5x lebih tinggi dibandingkan *Regular / Non-Member*.
+   - **Kategori Produk:** Melalui **Chart 105 (Profit Margin by Product Category)**, terlihat kategori dengan margin tertinggi antara lain *Accessories* (~48%), *Bakery* (~48%), *Batteries* (~48%), dan *Baby Care* (~44%). Kategori ini memberikan kontribusi profit margin yang lebih tinggi dibandingkan kategori lain yang volumenya tinggi tetapi margin relatif lebih rendah.
+   - **Segmen Pelanggan (LTV):** Melalui **Chart 107**, segmen *VIP / Premium Members* dan *Loyalty Tier A* memiliki *Customer Lifetime Value (LTV)* yang signifikan lebih tinggi dibandingkan segmen *Regular / Non-Member*.
 2. **Bottleneck Operasional (Retur & Komplain):**
    - Chart **Return & Complaint Rate by Category** menunjukkan lonjakan retur tertinggi pada kategori *Frozen Foods* (kendala rantai dingin/logistik cabang) dan *Electronics* (defect/garansi).
 

@@ -57,7 +57,7 @@ TOKEN, CSRF = login()
 
 CHARTS = [
     ("Revenue & Profit Trend", "line", [adhoc("total_amount","SUM"), adhoc("calculated_profit","SUM")], {"x": "transaction_year_month"}),
-    ("Revenue by Product Category", "bar", [adhoc("total_amount","SUM")], {"groupby": ["product_category"]}),
+    ("Profit by Product Category", "bar", [adhoc("calculated_profit","SUM")], {"groupby": ["product_category"]}),
     ("Top Stores by Revenue", "table", [adhoc("total_amount","SUM"), adhoc("calculated_profit","SUM")], {"groupby": ["store_id"]}),
     ("Customer Segment Value (LTV)", "bar", [adhoc("customer_lifetime_value","SUM")], {"groupby": ["customer_segment"]}),
     ("Return & Complaint Rate by Category", "bar",
